@@ -73,6 +73,13 @@ h2 {
 }
 
 
+/*games library styling */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 
 
 
@@ -91,33 +98,38 @@ h2 {
 /* media queries*/
 /* media device = tablet 768 and up */
 @media screen and (min-width: 768px) {
-    /* adjusting the size of the card body to align when the screen is larger than a mobile*/
+
+    /* adjusting the size of the card body to align when the screen is larger than a mobile */
     #services .card-body {
         min-height: 191px;
     }
+
 }
 
 /* media device = small laptop 992 and up */
 @media screen and (min-width: 992px) {
-    /* adjusting the size of the card body to align when the screen isthe size of a small laptop and up/
+
+    /* adjusting the size of the card body to align when the screen isthe size of a small laptop and up */
     #services .card-body {
-        min-height:  auto;
+        min-height: auto;
     }
 }
 
 
 /* media device = x large 1200 and up */
 @media screen and (min-width: 1200px) {
+
     /* adjusting the size of the card body to align when the screen is xl*/
     #services .card-body {
-        min-height:  220px;
+        min-height: 220px;
     }
 }
 
 /* media device = xxl screen 1400 and up */
 @media screen and (min-width: 1400px) {
+
     /* adjusting the size of the card body to align when the screen is xxl*/
     #services .card-body {
-        min-height:  195px;
+        min-height: 195px;
     }
 }
