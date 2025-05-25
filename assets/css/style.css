@@ -44,6 +44,10 @@ h2 {
     margin: 2rem 0;
 }
 
+ul {
+   list-style-type: none;
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -80,9 +84,36 @@ h2 {
     border: none;
 }
 
+/* footer */
+#contact {
+    background-color: var(--primary-color);
+    padding-bottom: 3rem;
+    color: white; 
+}
 
+#contact h2 {
+    color: white;
+}
 
+#contact .sub-heading-color {
+    color: var(--highlight-color-light)
+}
 
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right:15px;
+}
+
+#contact .social-links {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+   transition: color 0.3 ease-in-out;
+}
+#contact .social-links i:hover{
+    color: var(--highlight-color-light);
+    
+}
 /*
 .container,
 .row {
