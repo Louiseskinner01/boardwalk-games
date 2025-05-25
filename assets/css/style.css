@@ -4,20 +4,37 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #7a9fc2; /* light blue */
+    --primary-color: #3a2620;
+    /* dark brown */
+    --secondary-color: #aa9581;
+    /* light brown */
+    --highlight-color: #416a8e;
+    /* blue */
+    --highlight-color-light: #7a9fc2;
+    /* light blue */
 }
 
 body {
     font-family: var(--primary-font);
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+h1,
+h2 {
     text-transform: uppercase;
 }
+
 
 .sub-heading-color {
     color: var(--highlight-color);
@@ -29,19 +46,35 @@ h1, h2, h3 {
 
 /* Navbar */
 #navbar {
-background-color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 #navbar .logo {
     width: 30px;
-    }
+}
 
 
-    /* Header */
+/* Header */
 
 #header .lead {
-        font-family: var(--secondary-font);
-    }
+    font-family: var(--secondary-font);
+}
+
+/* services */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
+
+
+
 
 /*
 .container,
@@ -54,3 +87,37 @@ background-color: var(--primary-color);
     background-color: lightgray;
 }
 */
+
+/* media queries*/
+/* media device = tablet 768 and up */
+@media screen and (min-width: 768px) {
+    /* adjusting the size of the card body to align when the screen is larger than a mobile*/
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* media device = small laptop 992 and up */
+@media screen and (min-width: 992px) {
+    /* adjusting the size of the card body to align when the screen isthe size of a small laptop and up/
+    #services .card-body {
+        min-height:  auto;
+    }
+}
+
+
+/* media device = x large 1200 and up */
+@media screen and (min-width: 1200px) {
+    /* adjusting the size of the card body to align when the screen is xl*/
+    #services .card-body {
+        min-height:  220px;
+    }
+}
+
+/* media device = xxl screen 1400 and up */
+@media screen and (min-width: 1400px) {
+    /* adjusting the size of the card body to align when the screen is xxl*/
+    #services .card-body {
+        min-height:  195px;
+    }
+}
