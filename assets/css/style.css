@@ -112,7 +112,7 @@ ul {
     color: var(--highlight-color);
 }
 
-#contact .table-dark {
+#contact .table-dark * {
     background-color: transparent;
 }
 /*
