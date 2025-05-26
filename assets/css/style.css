@@ -23,11 +23,6 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-
-}
-
-h2 {
-    margin-bottom: 2rem;
 }
 
 h1,
@@ -35,6 +30,9 @@ h2 {
     text-transform: uppercase;
 }
 
+h2 {
+    margin-bottom: 2rem;
+}
 
 .sub-heading-color {
     color: var(--highlight-color);
@@ -108,11 +106,14 @@ ul {
 #contact .social-links {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
-   transition: color 0.3 ease-in-out;
+    transition: color 0.3 ease-in-out;
 }
 #contact .social-links i:hover{
-    color: var(--highlight-color-light);
-    
+    color: var(--highlight-color);
+}
+
+#contact .table-dark {
+    background-color: transparent;
 }
 /*
 .container,
