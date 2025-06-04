@@ -16,7 +16,8 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
+    padding-top: 57.15px;
+    /* pushes the top of the header down under fixed navbar */
 }
 
 h1,
@@ -44,7 +45,6 @@ h2 {
 }
 
 /* Buttons */
-
 .custom-button-filled {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
@@ -67,8 +67,6 @@ h2 {
     background-color: var(--highlight-color);
     color: white
 }
-
-
 
 /* Navbar */
 #navbar {
@@ -110,7 +108,7 @@ h2 {
 #contact {
     background-color: var(--primary-color);
     padding-bottom: 3rem;
-    color: white; 
+    color: white;
 }
 
 #contact h2 {
@@ -132,6 +130,7 @@ h2 {
     font-size: 1.9rem;
     transition: color 0.3s ease-in-out;
 }
+
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
@@ -139,17 +138,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-/*
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-*/
 
 /* media queries*/
 /* media device = tablet 768 and up */
@@ -159,7 +147,6 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
-
 }
 
 /* media device = small laptop 992 and up */
@@ -170,7 +157,6 @@ h2 {
         min-height: auto;
     }
 }
-
 
 /* media device = x large 1200 and up */
 @media screen and (min-width: 1200px) {
